@@ -68,7 +68,7 @@ console.log(heroArr);
 
 // const myHeros = heroArr.filter((elem) => {
 //     if (!(elem === undefined || elem === null || elem === '')) {
-        
+        // return elem;
 //     } else {
 //         return false;
 //     }
