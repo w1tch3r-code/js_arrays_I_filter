@@ -66,13 +66,19 @@ const heroArr = ["Superman", "Batman", undefined, , "Wonder Woman", "Spider-Man"
 
 console.log(heroArr);
 
+// const myHeros = heroArr.filter((elem) => {
+//     if (!(elem === undefined || elem === null || elem === '')) {
+        
+//     } else {
+//         return false;
+//     }
+// })
+
+// filter sortiert automatisch alle undefined, null und leeren Werte heraus
+
 const myHeros = heroArr.filter((elem) => {
-    if (!(elem === undefined || elem === null || elem === '')) {
-        return elem;
-    } else {
-        return false;
-    }
-})
+    return elem;
+});
 
 console.log(myHeros);
 
