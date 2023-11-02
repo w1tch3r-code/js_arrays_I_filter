@@ -93,6 +93,12 @@ const zahlen2 = [12, 25, 7, 18, 30, 5];
 const zalenKleiner20 = zahlen2.filter((elem) => elem < 20 ? elem : false);
 console.log(zalenKleiner20);
 
+const zalenKleiner20Mult =  zalenKleiner20.map((parameter) => {
+    return parameter * 2
+})
+
+console.log(zalenKleiner20Mult);
+
 const zalenKleiner20Mult2 = (zalenKleiner20) => {
     return zalenKleiner20 * 2
 };
